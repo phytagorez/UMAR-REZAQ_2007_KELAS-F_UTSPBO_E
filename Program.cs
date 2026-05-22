@@ -16,8 +16,8 @@ namespace OOPRent
 
             Console.WriteLine();
 
-            RiwayatSewa rs2 = new RiwayatSewa("Tung Tung Sahur", 003, "Civic", "5-22-2026", "Premium");
-            rs2.CetakRiwayat(54, 2000, 3000);
+            RiwayatSewa rs2 = new RiwayatSewa("Tung Tung Sahur", 003, "Civic", "5-22-2026", "Regular");
+            rs2.CetakRiwayat(54, 2000, 0);
         }
     }
 }
